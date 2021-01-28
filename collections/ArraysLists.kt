@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     }
 
     // Arrays
-    val array = arrayOf("Texas", "Iowa", "California")
+    val array = arrayOf("Texas", "India", "California")
     val mixed = arrayOf("Kotlin", 17, 3.0, false)
     val numbers = intArrayOf(1,2,3,4,5)
     println(mixed[0])
@@ -30,8 +30,8 @@ fun main(args: Array<String>) {
     }
 
     // Lists
-    val arrayList = arrayListOf("Patrick", "Michael", "Sarah")
-    val list = arrayListOf("Peter")
+    val arrayList = arrayListOf("Poshi", "Abhi", "Sarah")
+    val list = arrayListOf("Shreyas")
     println(arrayList[0])
     println(arrayList + list)
     println(arrayList.size)
@@ -43,7 +43,7 @@ fun main(args: Array<String>) {
     println(arrayList)
     arrayList.size
 
-    val removed = arrayList.remove("Michael")
+    val removed = arrayList.remove("Mic")
     println(arrayList)
     println(removed)
 
